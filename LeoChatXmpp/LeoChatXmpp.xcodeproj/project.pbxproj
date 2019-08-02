@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E3C6E122B8D0F000404393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3C6E022B8D0F000404393 /* AppDelegate.swift */; };
+		18E3C6E322B8D0F000404393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3C6E222B8D0F000404393 /* ViewController.swift */; };
+		18E3C6E622B8D0F000404393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E3C6E422B8D0F000404393 /* Main.storyboard */; };
+		18E3C6E922B8D0F000404393 /* LeoChatXmpp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E3C6E722B8D0F000404393 /* LeoChatXmpp.xcdatamodeld */; };
+		18E3C6EB22B8D0F400404393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E3C6EA22B8D0F400404393 /* Assets.xcassets */; };
+		18E3C6EE22B8D0F400404393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E3C6EC22B8D0F400404393 /* LaunchScreen.storyboard */; };
+		6074AE268B874693385B342A /* Pods_LeoChatXmpp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1348761C35C99FC28213F166 /* Pods_LeoChatXmpp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1348761C35C99FC28213F166 /* Pods_LeoChatXmpp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeoChatXmpp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E3C6DD22B8D0F000404393 /* LeoChatXmpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeoChatXmpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E3C6E022B8D0F000404393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E3C6E222B8D0F000404393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E3C6E522B8D0F000404393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E3C6E822B8D0F000404393 /* LeoChatXmpp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeoChatXmpp.xcdatamodel; sourceTree = "<group>"; };
+		18E3C6EA22B8D0F400404393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E3C6ED22B8D0F400404393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E3C6EF22B8D0F400404393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67C1E4B7AA2A349F8994776 /* Pods-LeoChatXmpp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoChatXmpp.release.xcconfig"; path = "Target Support Files/Pods-LeoChatXmpp/Pods-LeoChatXmpp.release.xcconfig"; sourceTree = "<group>"; };
+		D7B0351500389B0A53FD83B0 /* Pods-LeoChatXmpp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoChatXmpp.debug.xcconfig"; path = "Target Support Files/Pods-LeoChatXmpp/Pods-LeoChatXmpp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E3C6DA22B8D0F000404393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6074AE268B874693385B342A /* Pods_LeoChatXmpp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E3C6D422B8D0F000404393 = {
+			isa = PBXGroup;
+			children = (
+				18E3C6DF22B8D0F000404393 /* LeoChatXmpp */,
+				18E3C6DE22B8D0F000404393 /* Products */,
+				7379015CACCD956D50AC35CE /* Pods */,
+				CDB08867C35CCB0CF0068045 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18E3C6DE22B8D0F000404393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E3C6DD22B8D0F000404393 /* LeoChatXmpp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E3C6DF22B8D0F000404393 /* LeoChatXmpp */ = {
+			isa = PBXGroup;
+			children = (
+				18E3C6E022B8D0F000404393 /* AppDelegate.swift */,
+				18E3C6E222B8D0F000404393 /* ViewController.swift */,
+				18E3C6E422B8D0F000404393 /* Main.storyboard */,
+				18E3C6EA22B8D0F400404393 /* Assets.xcassets */,
+				18E3C6EC22B8D0F400404393 /* LaunchScreen.storyboard */,
+				18E3C6EF22B8D0F400404393 /* Info.plist */,
+				18E3C6E722B8D0F000404393 /* LeoChatXmpp.xcdatamodeld */,
+			);
+			path = LeoChatXmpp;
+			sourceTree = "<group>";
+		};
+		7379015CACCD956D50AC35CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7B0351500389B0A53FD83B0 /* Pods-LeoChatXmpp.debug.xcconfig */,
+				A67C1E4B7AA2A349F8994776 /* Pods-LeoChatXmpp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CDB08867C35CCB0CF0068045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1348761C35C99FC28213F166 /* Pods_LeoChatXmpp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E3C6DC22B8D0F000404393 /* LeoChatXmpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E3C6F222B8D0F400404393 /* Build configuration list for PBXNativeTarget "LeoChatXmpp" */;
+			buildPhases = (
+				BFE616FD9D28E96EF294EE06 /* [CP] Check Pods Manifest.lock */,
+				18E3C6D922B8D0F000404393 /* Sources */,
+				18E3C6DA22B8D0F000404393 /* Frameworks */,
+				18E3C6DB22B8D0F000404393 /* Resources */,
+				78E5BB12119CD9A7C3ADEB1F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeoChatXmpp;
+			productName = LeoChatXmpp;
+			productReference = 18E3C6DD22B8D0F000404393 /* LeoChatXmpp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E3C6D522B8D0F000404393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "vijayvir Singh";
+				TargetAttributes = {
+					18E3C6DC22B8D0F000404393 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 18E3C6D822B8D0F000404393 /* Build configuration list for PBXProject "LeoChatXmpp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E3C6D422B8D0F000404393;
+			productRefGroup = 18E3C6DE22B8D0F000404393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E3C6DC22B8D0F000404393 /* LeoChatXmpp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E3C6DB22B8D0F000404393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E3C6EE22B8D0F400404393 /* LaunchScreen.storyboard in Resources */,
+				18E3C6EB22B8D0F400404393 /* Assets.xcassets in Resources */,
+				18E3C6E622B8D0F000404393 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78E5BB12119CD9A7C3ADEB1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeoChatXmpp/Pods-LeoChatXmpp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/libidn/libidn.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMPPFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libidn.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeoChatXmpp/Pods-LeoChatXmpp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE616FD9D28E96EF294EE06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeoChatXmpp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E3C6D922B8D0F000404393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E3C6E922B8D0F000404393 /* LeoChatXmpp.xcdatamodeld in Sources */,
+				18E3C6E322B8D0F000404393 /* ViewController.swift in Sources */,
+				18E3C6E122B8D0F000404393 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E3C6E422B8D0F000404393 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E3C6E522B8D0F000404393 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E3C6EC22B8D0F400404393 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E3C6ED22B8D0F400404393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E3C6F022B8D0F400404393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E3C6F122B8D0F400404393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E3C6F322B8D0F400404393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B0351500389B0A53FD83B0 /* Pods-LeoChatXmpp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N9CPQ75A;
+				INFOPLIST_FILE = LeoChatXmpp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.LeoChatXmpp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E3C6F422B8D0F400404393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67C1E4B7AA2A349F8994776 /* Pods-LeoChatXmpp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N9CPQ75A;
+				INFOPLIST_FILE = LeoChatXmpp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.LeoChatXmpp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E3C6D822B8D0F000404393 /* Build configuration list for PBXProject "LeoChatXmpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E3C6F022B8D0F400404393 /* Debug */,
+				18E3C6F122B8D0F400404393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E3C6F222B8D0F400404393 /* Build configuration list for PBXNativeTarget "LeoChatXmpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E3C6F322B8D0F400404393 /* Debug */,
+				18E3C6F422B8D0F400404393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18E3C6E722B8D0F000404393 /* LeoChatXmpp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18E3C6E822B8D0F000404393 /* LeoChatXmpp.xcdatamodel */,
+			);
+			currentVersion = 18E3C6E822B8D0F000404393 /* LeoChatXmpp.xcdatamodel */;
+			path = LeoChatXmpp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18E3C6D522B8D0F000404393 /* Project object */;
+}

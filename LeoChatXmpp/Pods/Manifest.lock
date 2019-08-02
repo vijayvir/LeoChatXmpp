@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.8.1)
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaLumberjack (3.5.1):
+    - CocoaLumberjack/Core (= 3.5.1)
+  - CocoaLumberjack/Core (3.5.1)
+  - IBAnimatable (5.2.1)
+  - IQKeyboardManagerSwift (6.2.0)
+  - KissXML (5.2.3)
+  - libidn (1.35)
+  - MBProgressHUD (1.1.0)
+  - Nuke (7.5.2)
+  - XMPPFramework (4.0.0):
+    - XMPPFramework/default (= 4.0.0)
+  - XMPPFramework/default (4.0.0):
+    - CocoaAsyncSocket (~> 7.6)
+    - CocoaLumberjack
+    - KissXML (~> 5.2)
+    - libidn (~> 1.35)
+
+DEPENDENCIES:
+  - Alamofire
+  - IBAnimatable
+  - IQKeyboardManagerSwift
+  - MBProgressHUD
+  - Nuke
+  - XMPPFramework
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - IBAnimatable
+    - IQKeyboardManagerSwift
+    - KissXML
+    - libidn
+    - MBProgressHUD
+    - Nuke
+    - XMPPFramework
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaLumberjack: 2101f8a5508197a305e737d16c5c2e9e2157628c
+  IBAnimatable: a46b835ec6875178516cf7e014a40194d6bfa3fc
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  KissXML: 09f88ff8161fd058d67b70740b8b516687b52823
+  libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  Nuke: 0350d346a688426e8f2331253ef28dc2fc4f6178
+  XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
+
+PODFILE CHECKSUM: 1907333db57aadb47e9425eea4caf88710e1dc19
+
+COCOAPODS: 1.6.1
